@@ -102,9 +102,7 @@ after_test:
 
 
 artifacts:
-  - path: artifacts\publish\*.zip
-  - path: artifacts\publish\*.msi
-
+  - path: 'combined.*-unsigned.zip'
 
 
 deploy:
